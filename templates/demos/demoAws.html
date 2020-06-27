@@ -1,0 +1,73 @@
+{% extends 'default_temp.html' %}
+
+{% block title %}
+    FontDemo
+{% endblock %}
+
+{% block content %}
+    <div class="list-group">
+  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+</div>
+    <div class="card">
+        <div class="card-body">
+            <div class="list-group">
+                <div class="list-group-item">
+                    <i class="fa fa-spinner fa-spin fa-2x fa-fw"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container text-center w-auto">
+        <button class="btn btn-danger" >
+            <i class="fa fa-trash-o fa-lg"> Delete</i>
+        </button>
+    <div class="container">
+        <form name="demo" method="post" class="form-group">
+            <div class="input-group margin-bottom-sm">
+                <span class="input-group-addon">
+                    <i class="fa fa-envelope-o fa-fw"></i>
+                     <label>
+
+                    <input class="form-control " type="email" placeholder="Demo"/>
+
+                </label>
+                </span>
+
+            </div>
+        </form>
+    </div>
+    </div>
+div class="input-group margin-bottom-sm">
+  <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
+  <input class="form-control" type="text" placeholder="Email address">
+</div>
+<div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
+  <input class="form-control" type="password" placeholder="Password">
+</div>
+    <div class="container">
+  <div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col border bg-light">
+      2 of 3
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+</div>
+{% endblock %}

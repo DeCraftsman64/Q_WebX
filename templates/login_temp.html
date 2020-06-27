@@ -1,0 +1,44 @@
+{% extends 'bootstrap_temp.html' %}
+
+{% block styles %}
+    <link rel="icon" type="image/png" href="/static/login_temps/images/icons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/static/login_temps/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/login_temps/vendor/animate/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="/static/login_temps/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/login_temps/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/login_temps/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/login_temps/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	{% block addons %}{% endblock %}
+{% endblock %}
+
+
+
+
+{% block addon_scripts %}
+<!--===============================================================================================-->
+	<script src="/static/login_temps/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login_temps/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login_temps/vendor/daterangepicker/moment.min.js"></script>
+	<script src="/static/login_temps/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login_temps/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/login_temps/js/main.js"></script>
+
+    <!--===============================================================================================-->
+	<script src="/static/login_temps/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+
+{% endblock %}
