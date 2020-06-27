@@ -1,13 +1,18 @@
 import os
 
 from flask import Flask, render_template, request, jsonify
+from jinja2 import Template
 
 app = Flask(__name__)
 
 
 @app.route('/', methods=["GET"])
 def index():
-    return render_template('index.html', view='login/login_V20.html')
+    msg = render_template('index.html', view='login/login_V20.html')
+    text_file = open("templates/gen/index.html", "wt")
+    n = text_file.write(msg)
+    text_file.close()
+    return msg
 
 
 @app.route('/home')
