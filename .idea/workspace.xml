@@ -20,11 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/gen/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/layout.html" afterDir="false" />
-    </list>
+    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +198,7 @@
       <workItem from="1593285928735" duration="1706000" />
       <workItem from="1593287852932" duration="295000" />
       <workItem from="1593289770747" duration="4291000" />
-      <workItem from="1593344631986" duration="6833000" />
+      <workItem from="1593344631986" duration="7179000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593293351442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="creating index branch">
+      <created>1593384712243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593384712244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +246,8 @@
     </ignored-roots>
     <MESSAGE value="original" />
     <MESSAGE value="adding gen jinj2 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding gen jinj2 files" />
+    <MESSAGE value="creating index branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating index branch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593287602491">
@@ -326,6 +330,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="479" y="51" width="465" height="690" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/67.27.1299.741@67.27.1299.741" timestamp="1593287543194" />
+    <state x="486" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593384666851">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="486" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1299.741@67.27.1299.741" timestamp="1593384666851" />
     <state x="192" y="27" width="616" height="741" key="find.popup" timestamp="1593172578583">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
