@@ -4,26 +4,23 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/gen/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/gen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +34,8 @@
         <option value="Sass File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -89,7 +86,7 @@
       <recent name="$PROJECT_DIR$/static/Login_Flavours/css/v20" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app.py)">
+  <component name="RunManager" selected="Python.Q_WebX">
     <configuration name="Q_WebX" type="PythonConfigurationType" factoryName="Python">
       <module name="Q_WebX" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,7 +197,8 @@
       <workItem from="1593209207624" duration="6563000" />
       <workItem from="1593285928735" duration="1706000" />
       <workItem from="1593287852932" duration="295000" />
-      <workItem from="1593289770747" duration="3300000" />
+      <workItem from="1593289770747" duration="4291000" />
+      <workItem from="1593344631986" duration="7179000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -209,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593287508986</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding gen jinj2 files">
+      <created>1593293351441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593293351442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="creating index branch">
+      <created>1593384712243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593384712244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,19 +232,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -245,7 +245,9 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="original" />
-    <option name="LAST_COMMIT_MESSAGE" value="original" />
+    <MESSAGE value="adding gen jinj2 files" />
+    <MESSAGE value="creating index branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating index branch" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593287602491">
@@ -280,22 +282,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="1253" height="162" key="GridCell.Tab.0.bottom" timestamp="1593293132105">
+    <state width="1253" height="198" key="GridCell.Tab.0.bottom" timestamp="1593376407235">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="162" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593293132105" />
-    <state width="1253" height="162" key="GridCell.Tab.0.center" timestamp="1593293132103">
+    <state width="1253" height="198" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593376407235" />
+    <state width="1253" height="198" key="GridCell.Tab.0.center" timestamp="1593376407233">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="162" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593293132103" />
-    <state width="1253" height="162" key="GridCell.Tab.0.left" timestamp="1593293132101">
+    <state width="1253" height="198" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593376407233" />
+    <state width="1253" height="198" key="GridCell.Tab.0.left" timestamp="1593376407231">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="162" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593293132101" />
-    <state width="1253" height="162" key="GridCell.Tab.0.right" timestamp="1593293132104">
+    <state width="1253" height="198" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593376407231" />
+    <state width="1253" height="198" key="GridCell.Tab.0.right" timestamp="1593376407234">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="162" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593293132104" />
+    <state width="1253" height="198" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593376407234" />
+    <state width="1253" height="198" key="GridCell.Tab.1.bottom" timestamp="1593376407241">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="198" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593376407241" />
+    <state width="1253" height="198" key="GridCell.Tab.1.center" timestamp="1593376407238">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="198" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1593376407238" />
+    <state width="1253" height="198" key="GridCell.Tab.1.left" timestamp="1593376407237">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="198" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1593376407237" />
+    <state width="1253" height="198" key="GridCell.Tab.1.right" timestamp="1593376407240">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="198" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1593376407240" />
     <state x="205" y="31" key="SettingsEditor" timestamp="1593291120665">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -304,14 +322,18 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="247" height="198" key="ShowFilterAction_Filter_Popup/67.27.1299.741@67.27.1299.741" timestamp="1593092685221" />
-    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1593287517405">
+    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1593293372071">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1593287517405" />
+    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1593293372071" />
     <state x="479" y="51" width="465" height="690" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1593287543194">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="479" y="51" width="465" height="690" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/67.27.1299.741@67.27.1299.741" timestamp="1593287543194" />
+    <state x="486" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593384666851">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="486" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1299.741@67.27.1299.741" timestamp="1593384666851" />
     <state x="192" y="27" width="616" height="741" key="find.popup" timestamp="1593172578583">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -322,8 +344,8 @@
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1593172584074" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593292881140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593375804132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593290987151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
