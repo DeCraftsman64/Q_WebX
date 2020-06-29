@@ -62,7 +62,7 @@ def single_blog():
 
 @app.route('/support')
 def support():
-    return render_template('index.html', view='landing/support.html', support='active')
+    return render_template('index.html', view='landing/Support.html', support='active')
 
 
 @app.route('/blog')
