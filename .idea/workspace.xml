@@ -20,7 +20,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch" />
+    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/.sass-cache/78b708fb420649c9f7dae4db1e9c970034a12055/_prising.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/.sass-cache/78b708fb420649c9f7dae4db1e9c970034a12055/_prising.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/_prising.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/_prising.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/addons.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/addons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/addons.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/addons.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/layout.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +96,7 @@
       <recent name="$PROJECT_DIR$/static/Login_Flavours/css/v20" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Q_WebX">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="Q_WebX" type="PythonConfigurationType" factoryName="Python">
       <module name="Q_WebX" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,6 +209,7 @@
       <workItem from="1593287852932" duration="295000" />
       <workItem from="1593289770747" duration="4291000" />
       <workItem from="1593344631986" duration="7179000" />
+      <workItem from="1593464838826" duration="2119000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -262,10 +273,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="388" y="188" width="646" height="416" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1593213102581" />
-    <state x="350" y="170" width="722" height="453" key="EditFileWatcherDialog" timestamp="1592863196980">
+    <state x="350" y="170" width="722" height="453" key="EditFileWatcherDialog" timestamp="1593465773487">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="350" y="170" width="722" height="453" key="EditFileWatcherDialog/67.27.1299.741@67.27.1299.741" timestamp="1592863196980" />
+    <state x="350" y="170" width="722" height="453" key="EditFileWatcherDialog/67.27.1299.741@67.27.1299.741" timestamp="1593465773487" />
     <state x="488" y="140" width="447" height="513" key="FileChooserDialogImpl" timestamp="1593291071731">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -282,22 +293,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="1253" height="198" key="GridCell.Tab.0.bottom" timestamp="1593376407235">
+    <state width="604" height="161" key="GridCell.Tab.0.bottom" timestamp="1593466620049">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593376407235" />
-    <state width="1253" height="198" key="GridCell.Tab.0.center" timestamp="1593376407233">
+    <state width="604" height="161" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593466620049" />
+    <state width="604" height="161" key="GridCell.Tab.0.center" timestamp="1593466620046">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593376407233" />
-    <state width="1253" height="198" key="GridCell.Tab.0.left" timestamp="1593376407231">
+    <state width="604" height="161" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593466620046" />
+    <state width="604" height="161" key="GridCell.Tab.0.left" timestamp="1593466620043">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593376407231" />
-    <state width="1253" height="198" key="GridCell.Tab.0.right" timestamp="1593376407234">
+    <state width="604" height="161" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593466620043" />
+    <state width="604" height="161" key="GridCell.Tab.0.right" timestamp="1593466620047">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593376407234" />
+    <state width="604" height="161" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593466620047" />
     <state width="1253" height="198" key="GridCell.Tab.1.bottom" timestamp="1593376407241">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -344,7 +355,7 @@
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1593172584074" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593375804132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593466619966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
