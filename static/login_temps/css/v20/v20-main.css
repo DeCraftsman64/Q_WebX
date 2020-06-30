@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: OpenSans-Regular;
-  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+  src: url('../../fonts/OpenSans/OpenSans-Regular.ttf');
 }
 
 @font-face {
   font-family: OpenSans-Bold;
-  src: url('../fonts/OpenSans/OpenSans-Bold.ttf'); 
+  src: url('../../fonts/OpenSans/OpenSans-Bold.ttf');
 }
 
 
@@ -34,7 +34,7 @@ body, html {
 
 /*---------------------------------------------*/
 a {
-	font-family: OpenSans-Regular;
+  font-family: OpenSans-Regular, serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: OpenSans-Regular;
+  font-family: OpenSans-Regular, serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -135,10 +135,18 @@ iframe {
 /*==================================================================
 [ Text ]*/
 .txt1 {
-  font-family: OpenSans-Regular;
+  font-family: OpenSans-Regular, serif;
   font-size: 13px;
   line-height: 1.4;
   color: #cccccc;
+}
+
+.txt2 {
+  font-family: "Deja Vu Sans Mono", serif;
+  font-size: 15px;
+  padding: 1rem;
+  line-height: 1.5;
+  color: aliceblue;
 }
 
 
