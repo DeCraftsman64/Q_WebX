@@ -21,13 +21,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/font/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/font/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/font/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/font/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/font/Flaticon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/font/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/font/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/font/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon/icons/license/license.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/.sass-cache/78b708fb420649c9f7dae4db1e9c970034a12055/_prising.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/.sass-cache/78b708fb420649c9f7dae4db1e9c970034a12055/_prising.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/_prising.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/_prising.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/addons.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/addons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/addons.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing_temps/adinkra/scss/addons.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landing/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/layout.html" afterDir="false" />
     </list>
@@ -69,7 +74,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,19 +86,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/img" />
-      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/scss" />
-      <recent name="$PROJECT_DIR$/static/addons" />
-      <recent name="$PROJECT_DIR$/static/landing_temps/adinkraQ" />
-      <recent name="$PROJECT_DIR$/static/landing_temps/adinkraQ/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/addons" />
       <recent name="$PROJECT_DIR$/static/Login_Flavours/images" />
       <recent name="$PROJECT_DIR$/static/Login_Flavours/css/v15" />
       <recent name="$PROJECT_DIR$/static/Login_Flavours/css/v14" />
       <recent name="$PROJECT_DIR$/static/Login_Flavours/css/v20" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon" />
+      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/img" />
+      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/scss" />
+      <recent name="$PROJECT_DIR$/static/addons" />
+      <recent name="$PROJECT_DIR$/static/landing_temps/adinkraQ" />
     </key>
   </component>
   <component name="RunManager" selected="Flask server.Flask (app.py)">
@@ -209,6 +214,9 @@
       <workItem from="1593287852932" duration="295000" />
       <workItem from="1593289770747" duration="4291000" />
       <workItem from="1593344631986" duration="7179000" />
+      <workItem from="1593467875348" duration="7018000" />
+      <workItem from="1593509680723" duration="1501000" />
+      <workItem from="1593526236367" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -231,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593384712244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added slider to package.html &amp; fixed some bugs">
+      <created>1593473479591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593473479591</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +272,8 @@
     <MESSAGE value="original" />
     <MESSAGE value="adding gen jinj2 files" />
     <MESSAGE value="creating index branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating index branch" />
+    <MESSAGE value="added slider to package.html &amp; fixed some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added slider to package.html &amp; fixed some bugs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593287602491">
@@ -292,22 +308,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="1253" height="198" key="GridCell.Tab.0.bottom" timestamp="1593376407235">
+    <state width="604" height="161" key="GridCell.Tab.0.bottom" timestamp="1593527102170">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593376407235" />
-    <state width="1253" height="198" key="GridCell.Tab.0.center" timestamp="1593376407233">
+    <state width="604" height="161" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593527102170" />
+    <state width="604" height="161" key="GridCell.Tab.0.center" timestamp="1593527102168">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593376407233" />
-    <state width="1253" height="198" key="GridCell.Tab.0.left" timestamp="1593376407231">
+    <state width="604" height="161" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593527102168" />
+    <state width="604" height="161" key="GridCell.Tab.0.left" timestamp="1593527102167">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593376407231" />
-    <state width="1253" height="198" key="GridCell.Tab.0.right" timestamp="1593376407234">
+    <state width="604" height="161" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593527102167" />
+    <state width="604" height="161" key="GridCell.Tab.0.right" timestamp="1593527102169">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593376407234" />
+    <state width="604" height="161" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593527102169" />
     <state width="1253" height="198" key="GridCell.Tab.1.bottom" timestamp="1593376407241">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -336,6 +352,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1593293372071" />
+    <state x="680" y="29" width="676" height="735" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593472009608">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="680" y="29" width="676" height="735" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1299.741@67.27.1299.741" timestamp="1593472009608" />
     <state x="479" y="51" width="465" height="690" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1593287543194">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -354,7 +374,7 @@
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1593172584074" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593467746792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593527102078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
