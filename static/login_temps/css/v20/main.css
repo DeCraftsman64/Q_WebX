@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: OpenSans-Regular;
-  src: url('../../fonts/OpenSans/OpenSans-Regular.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
 }
 
 @font-face {
   font-family: OpenSans-Bold;
-  src: url('../../fonts/OpenSans/OpenSans-Bold.ttf');
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf'); 
 }
 
 
@@ -193,9 +193,8 @@ iframe {
 .login100-form-title {
   width: 100%;
   display: block;
-  font-family: DejaVu Serif, serif;
+  font-family: OpenSans-Regular;
   font-size: 30px;
-  font-weight: bold;
   color: #fefefe;
   line-height: 1.2;
   text-transform: uppercase;
