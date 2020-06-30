@@ -20,14 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login_temps/css/v20/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/login_temps/css/v20/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/login_temps/css/v20/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/login_temps/css/v20/util.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gen/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/login_V20.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/login_V20.html" afterDir="false" />
-    </list>
+    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +202,7 @@
       <workItem from="1593467875348" duration="7018000" />
       <workItem from="1593509680723" duration="1501000" />
       <workItem from="1593526236367" duration="858000" />
-      <workItem from="1593554335494" duration="658000" />
+      <workItem from="1593554335494" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -239,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593473479591</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixing rendering issues">
+      <created>1593555176936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593555176936</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added bootstrap to .gitignore">
+      <created>1593555269615</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593555269615</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +273,9 @@
     <MESSAGE value="adding gen jinj2 files" />
     <MESSAGE value="creating index branch" />
     <MESSAGE value="added slider to package.html &amp; fixed some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added slider to package.html &amp; fixed some bugs" />
+    <MESSAGE value="Fixing rendering issues" />
+    <MESSAGE value="added bootstrap to .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bootstrap to .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593287602491">
@@ -301,22 +310,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="604" height="161" key="GridCell.Tab.0.bottom" timestamp="1593554949720">
+    <state width="604" height="161" key="GridCell.Tab.0.bottom" timestamp="1593555341217">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593554949720" />
-    <state width="604" height="161" key="GridCell.Tab.0.center" timestamp="1593554949714">
+    <state width="604" height="161" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593555341217" />
+    <state width="604" height="161" key="GridCell.Tab.0.center" timestamp="1593555341215">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593554949714" />
-    <state width="604" height="161" key="GridCell.Tab.0.left" timestamp="1593554949713">
+    <state width="604" height="161" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593555341215" />
+    <state width="604" height="161" key="GridCell.Tab.0.left" timestamp="1593555341213">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593554949713" />
-    <state width="604" height="161" key="GridCell.Tab.0.right" timestamp="1593554949715">
+    <state width="604" height="161" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593555341213" />
+    <state width="604" height="161" key="GridCell.Tab.0.right" timestamp="1593555341216">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593554949715" />
+    <state width="604" height="161" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593555341216" />
     <state width="1253" height="198" key="GridCell.Tab.1.bottom" timestamp="1593376407241">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -367,7 +376,7 @@
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1593172584074" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593555121118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593555341185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
