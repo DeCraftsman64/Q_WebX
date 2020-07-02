@@ -20,7 +20,180 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch" />
+    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="creating index branch">
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/Linearicons-Free-v1.0.0/WebFont/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/Linearicons-Free-v1.0.0/icon-font.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_animated.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_bordered-pulled.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_core.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_fixed-width.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_icons.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_larger.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_list.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_mixins.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_path.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_rotated-flipped.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_screen-reader.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_stacked.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/_variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/.sass-cache/f1b9b9d06c1a2d23d8d8656c144cebe9f57eb95d/font-awesome.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/poppins/Poppins-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/raleway/Raleway-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/UFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/Ubuntu-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/Ubuntu-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/Ubuntu-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/Ubuntu-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/Ubuntu-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/Ubuntu-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/Ubuntu-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/fonts/ubuntu/Ubuntu-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/images/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/images/icons/icon-google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/images/icons/map-marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/images/icons/symbol-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/animsition/css/animsition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/animsition/css/animsition.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/animsition/js/animsition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/animsition/js/animsition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/bootstrap/js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/countdowntime/countdowntime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/daterangepicker/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/daterangepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/vendor/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/render.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +213,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="f3257720-aa31-41f7-9eeb-fd38dc243b19" />
@@ -59,7 +237,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/login_temps/css/v20" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/login" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,19 +249,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/login_temps/css/v20" />
-      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon" />
-      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/img" />
-      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/scss" />
-      <recent name="$PROJECT_DIR$/static/addons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/addons" />
       <recent name="$PROJECT_DIR$/static/Login_Flavours/images" />
       <recent name="$PROJECT_DIR$/static/Login_Flavours/css/v15" />
       <recent name="$PROJECT_DIR$/static/Login_Flavours/css/v14" />
       <recent name="$PROJECT_DIR$/static/Login_Flavours/css/v20" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/login" />
+      <recent name="$PROJECT_DIR$/static/_login_templates" />
+      <recent name="$PROJECT_DIR$/static/login_temps/css/v20" />
+      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/fonts/addon" />
+      <recent name="$PROJECT_DIR$/static/landing_temps/adinkra/img" />
     </key>
   </component>
   <component name="RunManager" selected="Flask server.Flask (app.py)">
@@ -139,7 +317,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -203,6 +381,7 @@
       <workItem from="1593509680723" duration="1501000" />
       <workItem from="1593526236367" duration="858000" />
       <workItem from="1593554335494" duration="1014000" />
+      <workItem from="1593730811280" duration="1561000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -310,22 +489,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="604" height="161" key="GridCell.Tab.0.bottom" timestamp="1593555341217">
+    <state width="1253" height="161" key="GridCell.Tab.0.bottom" timestamp="1593731943935">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593555341217" />
-    <state width="604" height="161" key="GridCell.Tab.0.center" timestamp="1593555341215">
+    <state width="1253" height="161" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593731943935" />
+    <state width="1253" height="161" key="GridCell.Tab.0.center" timestamp="1593731943933">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593555341215" />
-    <state width="604" height="161" key="GridCell.Tab.0.left" timestamp="1593555341213">
+    <state width="1253" height="161" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593731943933" />
+    <state width="1253" height="161" key="GridCell.Tab.0.left" timestamp="1593731943932">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593555341213" />
-    <state width="604" height="161" key="GridCell.Tab.0.right" timestamp="1593555341216">
+    <state width="1253" height="161" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593731943932" />
+    <state width="1253" height="161" key="GridCell.Tab.0.right" timestamp="1593731943934">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593555341216" />
+    <state width="1253" height="161" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593731943934" />
     <state width="1253" height="198" key="GridCell.Tab.1.bottom" timestamp="1593376407241">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -376,7 +555,7 @@
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1593172584074" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593555341185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593731943874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
