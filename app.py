@@ -8,7 +8,9 @@ app = Flask(__name__)
 
 @app.route('/', methods=["GET"])
 def index():
-    return render_template('render.html', view='login/index.html')
+    return render_template('render.html', view='login/index.html', valid=False,
+                           isAccountValid="True",
+                           isPasswordValid="True")
 
 
 @app.route('/home')

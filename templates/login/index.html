@@ -28,7 +28,9 @@
 <!--===============================================================================================-->
 </head>
 <body>
-
+    {% if valid  %}
+        {% set isAccountValid, isPasswordValid = "False", "False" %}
+    {% endif %}
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
@@ -40,7 +42,9 @@
 					<span class="txt1 p-b-11">
 						Username
 					</span>
-					<div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
+					<div class="wrap-input100 validate-input m-b-36" data-state="{{ isAccountValid }}" data-validate = "Username is required"
+                         data-validate1="Account Not Found!">
+
 						<input class="input100" type="text" name="username" >
 						<span class="focus-input100"></span>
 					</div>
@@ -48,7 +52,8 @@
 					<span class="txt1 p-b-11">
 						Password
 					</span>
-					<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
+					<div class="wrap-input100 validate-input m-b-12" data-validate="Password is required"
+                    data-validate1="Wrong Password!" data-state="{{ isPasswordValid }}">
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>
 						</span>

@@ -6,13 +6,15 @@
     /*==================================================================
     [ Validate ]*/
     var input = $('.validate-input .input100');
+    const alert1 = 'alert-validate';
+    const alert2 = 'alert-validate3'
 
     $('.validate-form').on('submit',function(){
         var check = true;
 
         for(var i=0; i<input.length; i++) {
             if(validate(input[i]) == false){
-                showValidate(input[i]);
+                showValidate(input[i], alert1);
                 check=false;
             }
         }
@@ -22,9 +24,14 @@
 
 
     $('.validate-form .input100').each(function(){
+        if ($(this).parent().data("state") === "True") {
+            showValidate(this, alert2);
+        }
         $(this).focus(function(){
-           hideValidate(this);
+           hideValidate(this,alert1);
+           hideValidate(this, alert2)
         });
+
     });
 
     function validate (input) {
@@ -40,16 +47,16 @@
         }
     }
 
-    function showValidate(input) {
+    function showValidate(input , alert_type) {
         var thisAlert = $(input).parent();
 
-        $(thisAlert).addClass('alert-validate');
+        $(thisAlert).addClass(alert_type);
     }
 
-    function hideValidate(input) {
+    function hideValidate(input, alert_type) {
         var thisAlert = $(input).parent();
 
-        $(thisAlert).removeClass('alert-validate');
+        $(thisAlert).removeClass(alert_type);
     }
     
     /*==================================================================
