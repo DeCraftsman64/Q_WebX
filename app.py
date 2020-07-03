@@ -5,17 +5,27 @@ from jinja2 import Template
 
 app = Flask(__name__)
 
+username = "safoqwame99@gmail.com"
+password = "0277364585"
+
 
 @app.route('/', methods=["GET"])
 def index():
-    return render_template('render.html', view='login/index.html', valid=False,
-                           isAccountValid="True",
-                           isPasswordValid="True")
+    return render_template('render.html', view='login/index.html', valid=True)
 
 
-@app.route('/home')
+@app.route('/home', methods=["GET", "POST"])
 def home():
-    return render_template('render.html', view='landing/render.html', home='active')
+    if request.method == "POST":
+        if request.form.get("username") != username or request.form.get('pass') != password:
+            return render_template('render.html', view='login/index.html', valid=False,
+                                   isAccountValid="True",
+                                   isPasswordValid="True",
+                                   input=request.form.get("username"))
+        else:
+            return render_template('render.html', view='landing/index.html', home='active')
+    else:
+        return render_template('render.html', view='landing/index.html', home='active')
 
 
 @app.route('/about')

@@ -20,11 +20,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="fixed login framework">
+    <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="finally done with jquery side validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/_login_templates/Login_v14/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/_login_templates/Login_v14/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/_login_templates/Login_v14/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +64,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -80,7 +80,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,7 +215,9 @@
       <workItem from="1593509680723" duration="1501000" />
       <workItem from="1593526236367" duration="858000" />
       <workItem from="1593554335494" duration="1014000" />
-      <workItem from="1593730811280" duration="6682000" />
+      <workItem from="1593730811280" duration="7518000" />
+      <workItem from="1593774781020" duration="314000" />
+      <workItem from="1593775161297" duration="408000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -266,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593732515237</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finally done with jquery side validation">
+      <created>1593737694106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593737694106</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,13 +305,14 @@
     <MESSAGE value="Fixing rendering issues" />
     <MESSAGE value="added bootstrap to .gitignore" />
     <MESSAGE value="fixed login framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed login framework" />
+    <MESSAGE value="finally done with jquery side validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally done with jquery side validation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593287602491">
+    <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593775495992">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="583" y="235" width="256" height="323" key="#Notifications/67.27.1299.741@67.27.1299.741" timestamp="1593287602491" />
+    <state x="583" y="235" width="256" height="323" key="#Notifications/67.27.1299.741@67.27.1299.741" timestamp="1593775495992" />
     <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593291216975">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -331,22 +341,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="604" height="161" key="GridCell.Tab.0.bottom" timestamp="1593737407228">
+    <state width="1253" height="161" key="GridCell.Tab.0.bottom" timestamp="1593738458456">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593737407228" />
-    <state width="604" height="161" key="GridCell.Tab.0.center" timestamp="1593737407226">
+    <state width="1253" height="161" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593738458456" />
+    <state width="1253" height="161" key="GridCell.Tab.0.center" timestamp="1593738458454">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593737407226" />
-    <state width="604" height="161" key="GridCell.Tab.0.left" timestamp="1593737407224">
+    <state width="1253" height="161" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593738458454" />
+    <state width="1253" height="161" key="GridCell.Tab.0.left" timestamp="1593738458453">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593737407224" />
-    <state width="604" height="161" key="GridCell.Tab.0.right" timestamp="1593737407227">
+    <state width="1253" height="161" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593738458453" />
+    <state width="1253" height="161" key="GridCell.Tab.0.right" timestamp="1593738458455">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="161" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593737407227" />
+    <state width="1253" height="161" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593738458455" />
     <state width="1253" height="198" key="GridCell.Tab.1.bottom" timestamp="1593376407241">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -367,18 +377,18 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="456" y="27" width="510" height="741" key="RollbackChangesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593732439589" />
-    <state x="205" y="31" key="SettingsEditor" timestamp="1593291120665">
+    <state x="205" y="31" key="SettingsEditor" timestamp="1593775587459">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1593291120665" />
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1593775587459" />
     <state width="247" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1593092685221">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="247" height="198" key="ShowFilterAction_Filter_Popup/67.27.1299.741@67.27.1299.741" timestamp="1593092685221" />
-    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1593732551822">
+    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1593737713322">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1593732551822" />
+    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1593737713322" />
     <state x="680" y="29" width="676" height="735" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593472009608">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -401,7 +411,7 @@
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1593172584074" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593737407200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593775594360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
