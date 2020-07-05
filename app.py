@@ -1,7 +1,6 @@
 import os
 
 from flask import Flask, render_template, request, jsonify
-from jinja2 import Template
 
 app = Flask(__name__)
 
@@ -12,6 +11,11 @@ password = "0277364585"
 @app.route('/', methods=["GET"])
 def index():
     return render_template('render.html', view='login/index.html', valid=True)
+
+
+@app.route('/sign_up')
+def sign_up():
+    return render_template('render.html', view='login/sign_up.html')
 
 
 @app.route('/home', methods=["GET", "POST"])

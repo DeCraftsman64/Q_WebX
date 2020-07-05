@@ -29,7 +29,7 @@
 </head>
 <body>
     {% if valid  %}
-        {% set isAccountValid, isPasswordValid = "False", "False" %}
+        {% set isAccountValid, isPasswordValid, input = "False", "False", "example@****.com" %}
     {% endif %}
 	<div class="limiter">
 		<div class="container-login100">
@@ -83,7 +83,7 @@
 					</div>
 
                     <div class="flex-sm-row w-full p-t-25" style="text-align: center">
-                        <a href="#" class="txt3"><u>Create New Account?</u></a>
+                        <a href="{{url_for('sign_up')}}" class="txt3"><u>Create New Account?</u></a>
                     </div>
 
 				</form>
