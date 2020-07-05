@@ -87,5 +87,10 @@ def intro():
     return render_template('render.html', view='landing/intro.html', home='active')
 
 
+@app.route('/demo')
+def project():
+    return render_template('tester.html')
+
+
 if __name__ == '__main__':
     app.run()

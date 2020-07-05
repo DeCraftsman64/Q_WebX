@@ -21,37 +21,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="finally done with jquery side validation">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/css/opensans-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/css/line-awesome-font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/css/line-awesome-font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/css/line-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/css/line-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/fonts/line-awesome.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/fonts/line-awesome.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/fonts/line-awesome.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/fonts/line-awesome.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/fonts/line-awesome/fonts/line-awesome.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/_login_templates/regform-30/sign_up.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login/sign_up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Q_WebX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Q_WebX.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="login" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -248,7 +220,7 @@
       <workItem from="1593775161297" duration="408000" />
       <workItem from="1593860928477" duration="663000" />
       <workItem from="1593861671635" duration="5639000" />
-      <workItem from="1593947259506" duration="4829000" />
+      <workItem from="1593947259506" duration="16982000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -306,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593737694106</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added sign up">
+      <created>1593961246065</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593961246065</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +316,8 @@
     <MESSAGE value="added bootstrap to .gitignore" />
     <MESSAGE value="fixed login framework" />
     <MESSAGE value="finally done with jquery side validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="finally done with jquery side validation" />
+    <MESSAGE value="added sign up" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sign up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593775495992">
@@ -372,41 +352,46 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="604" height="160" key="GridCell.Tab.0.bottom" timestamp="1593959644745">
+    <state width="637" height="160" key="GridCell.Tab.0.bottom" timestamp="1593982882898">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="637" height="160" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1593982882898" />
+    <state width="1253" height="160" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593961676370" />
+    <state width="637" height="160" key="GridCell.Tab.0.center" timestamp="1593982882897">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="637" height="160" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1593982882897" />
+    <state width="1253" height="160" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593961676367" />
+    <state width="637" height="160" key="GridCell.Tab.0.left" timestamp="1593982882896">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="637" height="160" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1593982882896" />
+    <state width="1253" height="160" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593961676365" />
+    <state width="637" height="160" key="GridCell.Tab.0.right" timestamp="1593982882897">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="637" height="160" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1593982882897" />
+    <state width="1253" height="160" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593961676368" />
+    <state width="604" height="198" key="GridCell.Tab.1.bottom" timestamp="1593961184413">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="160" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593959644745" />
-    <state width="604" height="160" key="GridCell.Tab.0.center" timestamp="1593959644744">
+    <state width="604" height="198" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593961184413" />
+    <state width="604" height="198" key="GridCell.Tab.1.center" timestamp="1593961184412">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="160" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1593959644744" />
-    <state width="604" height="160" key="GridCell.Tab.0.left" timestamp="1593959644743">
+    <state width="604" height="198" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1593961184412" />
+    <state width="604" height="198" key="GridCell.Tab.1.left" timestamp="1593961184411">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="160" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1593959644743" />
-    <state width="604" height="160" key="GridCell.Tab.0.right" timestamp="1593959644744">
+    <state width="604" height="198" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1593961184411" />
+    <state width="604" height="198" key="GridCell.Tab.1.right" timestamp="1593961184412">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="160" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1593959644744" />
-    <state width="1253" height="198" key="GridCell.Tab.1.bottom" timestamp="1593376407241">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state width="604" height="198" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1593961184412" />
+    <state x="409" y="27" width="510" height="741" key="RollbackChangesDialog" timestamp="1593972307536">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1253" height="198" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1593376407241" />
-    <state width="1253" height="198" key="GridCell.Tab.1.center" timestamp="1593376407238">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="198" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1593376407238" />
-    <state width="1253" height="198" key="GridCell.Tab.1.left" timestamp="1593376407237">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="198" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1593376407237" />
-    <state width="1253" height="198" key="GridCell.Tab.1.right" timestamp="1593376407240">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="198" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1593376407240" />
-    <state x="456" y="27" width="510" height="741" key="RollbackChangesDialog" timestamp="1593732439589">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
+    <state x="409" y="27" key="RollbackChangesDialog/0.27.1366.741@0.27.1366.741" timestamp="1593972307536" />
     <state x="456" y="27" width="510" height="741" key="RollbackChangesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593732439589" />
     <state x="205" y="31" key="SettingsEditor" timestamp="1593775587459">
       <screen x="67" y="27" width="1299" height="741" />
@@ -416,10 +401,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="247" height="198" key="ShowFilterAction_Filter_Popup/67.27.1299.741@67.27.1299.741" timestamp="1593092685221" />
-    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1593737713322">
+    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2" timestamp="1593961256266">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1593737713322" />
+    <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1593961256266" />
     <state x="680" y="29" width="676" height="735" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593472009608">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -442,7 +427,7 @@
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1593862618346" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593961128268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1593983060096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
