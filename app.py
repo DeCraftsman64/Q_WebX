@@ -89,7 +89,7 @@ def intro():
 
 @app.route('/demo')
 def project():
-    return render_template('tester.html')
+    return render_template('landing/demoQ.html')
 
 
 if __name__ == '__main__':
