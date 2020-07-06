@@ -1,15 +1,27 @@
 import os
 
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, session
+from flask_session import Session
+from My_Modules import Project
 
 app = Flask(__name__)
+
+# Configuring Session
+app.config["SESSION_PERMANENT"] = False
+app.config['SESSION_TYPE'] = "filesystem"
+Session(app)
 
 username = "safoqwame99@gmail.com"
 password = "0277364585"
 
+web = Project("Web Development", "landing/pro/web.html")
+projects = set()
+projects.add(web)
+
 
 @app.route('/', methods=["GET"])
 def index():
+    var = session["projects"].clear()
     return render_template('render.html', view='login/index.html', valid=True)
 
 
@@ -27,7 +39,13 @@ def home():
                                    isPasswordValid="True",
                                    input=request.form.get("username"))
         else:
-            return render_template('render.html', view='landing/index.html', home='active')
+            if session.get("projects") is None:
+                session["projects"] = []
+            for pro in projects:
+                session["projects"].append(pro)
+                print(pro)
+            return render_template('render.html', view='landing/index.html', home='active',
+                                   projects=session["projects"])
     else:
         return render_template('render.html', view='landing/index.html', home='active')
 
@@ -88,8 +106,13 @@ def intro():
 
 
 @app.route('/demo')
-def project():
+def demo():
     return render_template('landing/demoQ.html')
+
+
+@app.route('/project')
+def project():
+    return render_template('landing/pro/web.html')
 
 
 if __name__ == '__main__':

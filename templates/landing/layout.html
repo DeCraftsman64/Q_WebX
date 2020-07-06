@@ -65,7 +65,10 @@
                                                 </li>
                                                 <li><a class="{{ pages }}" href="#">pages <i class="ti-angle-down"></i></a>
                                                     <ul class="submenu">
-                                                        <li><a href="{{ url_for('elements') }}">elements</a></li>
+                                                        {% for project in projects %}
+                                                            <li><a href="{{ url_for('project') }}">{{ project.name }}</a></li>
+                                                        {% endfor %}
+
                                                     </ul>
                                                 </li>
                                                 <li><a class="{{ support }}" href={{ url_for('support') }}>Support</a></li>
