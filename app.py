@@ -116,10 +116,15 @@ notes = []
 @app.route('/project', methods=["GET", "POST"])
 def project():
     note = ''
+    code = ''
     if request.method == "POST":
-        note = request.form.get('note')
-        notes.append(note)
-    return render_template('landing/pro/web.html', notes=notes)
+        if "form1" in request.form:
+            note = request.form.get('note')
+            notes.append(note)
+            print(notes)
+        if 'form2' in request.form:
+            code = request.form.get("code")
+    return render_template('landing/pro/web.html', notes=notes, code=code)
 
 
 if __name__ == '__main__':

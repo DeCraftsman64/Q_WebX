@@ -11,7 +11,7 @@
 		<!-- bradcam_area_start -->
 		<div class="bradcam_area breadcam_bg overlay2">
 				<h3>Web Development</h3>
-			</div>
+        </div>
 			<!-- bradcam_area_end -->
 
 
@@ -26,7 +26,7 @@
                     </div>
                     <div class="card-body" >
                         <div class="row">
-                             <div class="col-sm-12 col-lg-5">
+                            <div class="col-sm-12 col-lg-5">
                                  <ul id="lec-1" class="list-group">
                                      <a href="#" class="list-group-item list-group-item-action" style="background-color: #b21f2d">
                                          <div class="d-flex w-100 justify-content-between">
@@ -57,61 +57,41 @@
                                         <ul>
                                         {% for note in notes %}
                                             <li>{{ note }}</li>
+
                                         {% endfor %}
                                     </ul>
                                     </div>
 
                                   <form action="{{ url_for('project') }}" method="post">
                                     <input type="text" name="note" placeholder="Enter Note Here">
-                                    <button>Add Note</button>
-                                </form>
+                                    <button name="form1">Add Note</button>
+                                  </form>
                                 </div>
- <div class="card"style="padding: 20px" >
-                                    <h4 class="color-6 text-center">Notes</h4>
-                                    <div class="container" style="text-align: left">
-                                        <ul>
-                                        {% for note in notes %}
-                                            <li>{{ note }}</li>
-                                        {% endfor %}
-                                    </ul>
+                                <div class="card" style="padding: 20px">
+                                    <div class="card-title">Code Snippet</div>
+                                    <div class="card-body">
+                                        <div class="container">
+                                            <pre class="line-numbers">
+                                                <code class="language-html">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <code>
+                                                               {{ code }}
+                                                            </code>
+
+                                                        </div>
+                                                    </div>
+                                                </code>
+                                            </pre>
+                                        </div>
+                                        <form action="{{ url_for('project') }}" method="post">
+                                            <div class="row">
+                                                    <textarea type="text" name="code" placeholder="Type Your Code Here" style="width: 100%"></textarea>
+                                            </div>
+                                                <button name="form2" type="submit" style="margin-top: 5px">Run</button>
+                                        </form>
                                     </div>
-
-                                  <form action="{{ url_for('project') }}" method="post">
-                                    <input type="text" name="note" placeholder="Enter Note Here">
-                                    <button>Add Note</button>
-                                </form>
                                 </div>
- <div class="card"style="padding: 20px" >
-                                    <h4 class="color-6 text-center">Notes</h4>
-                                    <div class="container" style="text-align: left">
-                                        <ul>
-                                        {% for note in notes %}
-                                            <li>{{ note }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                    </div>
-
-                                  <form action="{{ url_for('project') }}" method="post">
-                                    <input type="text" name="note" placeholder="Enter Note Here">
-                                    <button>Add Note</button>
-                                </form>
-                                </div>
- <div class="card"style="padding: 20px" >
-                                    <h4 class="color-6 text-center">Notes</h4>
-                                    <div class="container" style="text-align: left">
-                                        <ul>
-                                        {% for note in notes %}
-                                            <li>{{ note }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                    </div>
-
-                                  <form action="{{ url_for('project') }}" method="post">
-                                    <input type="text" name="note" placeholder="Enter Note Here">
-                                    <button>Add Note</button>
-                                </form>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -121,6 +101,12 @@
                     </div>
                 </div>
             </div>
+            <pre class="line-numbers">
+  <code class="language-css">
+    p { color: red }
+  </code>
+
+</pre>
         </div>
     </div>
 
