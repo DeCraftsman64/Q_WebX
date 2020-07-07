@@ -110,9 +110,16 @@ def demo():
     return render_template('landing/demoQ.html')
 
 
-@app.route('/project')
+notes = []
+
+
+@app.route('/project', methods=["GET", "POST"])
 def project():
-    return render_template('landing/pro/web.html')
+    note = ''
+    if request.method == "POST":
+        note = request.form.get('note')
+        notes.append(note)
+    return render_template('landing/pro/web.html', notes=notes)
 
 
 if __name__ == '__main__':
