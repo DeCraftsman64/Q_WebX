@@ -21,11 +21,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="finally done with jquery side validation">
+      <change afterPath="$PROJECT_DIR$/flights.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_session/2029240f6d1128be89ddc32729463129" beforeDir="false" afterPath="$PROJECT_DIR$/flask_session/2029240f6d1128be89ddc32729463129" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_session/a922e2ffaac721dbe6313b88d2cb35dc" beforeDir="false" afterPath="$PROJECT_DIR$/flask_session/a922e2ffaac721dbe6313b88d2cb35dc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/pro/web.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/pro/web.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +42,8 @@
         <option value="Sass File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -65,6 +67,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -145,6 +148,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="upload" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Q_WebX" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DATABASE_URL" value="$DATABASE_URL$" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/upload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (app.py)" type="Python.FlaskServer" nameIsGenerated="true">
       <option name="flaskDebug" value="true" />
       <module name="Q_WebX" />
@@ -181,6 +206,7 @@
       <item itemvalue="Flask server.Flask (app.py)" />
       <item itemvalue="Python.Q_WebX" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.upload" />
     </list>
     <recent_temporary>
       <list>
@@ -224,7 +250,8 @@
       <workItem from="1593861671635" duration="5639000" />
       <workItem from="1593947259506" duration="19764000" />
       <workItem from="1594038898159" duration="17119000" />
-      <workItem from="1594113121949" duration="4906000" />
+      <workItem from="1594113121949" duration="7460000" />
+      <workItem from="1594237444574" duration="4501000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -317,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594083465543</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixed">
+      <created>1594125252566</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1594125252566</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,25 +387,46 @@
     <MESSAGE value="still on project" />
     <MESSAGE value="partial project fixed" />
     <MESSAGE value="finally have solved project model" />
-    <option name="LAST_COMMIT_MESSAGE" value="finally have solved project model" />
+    <MESSAGE value="Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593775495992">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="583" y="235" width="256" height="323" key="#Notifications/67.27.1299.741@67.27.1299.741" timestamp="1593775495992" />
-    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593291216975">
+    <state x="566" y="76" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594243099285">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291216974" />
+    <state x="566" y="76" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1594243099285" />
     <state x="388" y="188" width="646" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593213102581">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="388" y="188" width="646" height="416" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1593213102581" />
+    <state x="373" y="44" width="676" height="705" key="#create_passengers.sql" timestamp="1594239374545">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="373" y="44" width="676" height="705" key="#create_passengers.sql/67.27.1299.741@67.27.1299.741" timestamp="1594239374545" />
+    <state x="501" y="27" width="676" height="741" key="#upload" timestamp="1594242927817">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="501" y="27" width="676" height="741" key="#upload/67.27.1299.741@67.27.1299.741" timestamp="1594242927817" />
+    <state x="373" y="27" width="676" height="741" key="#upload_data" timestamp="1594241651370">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="373" y="27" width="676" height="741" key="#upload_data/67.27.1299.741@67.27.1299.741" timestamp="1594241651370" />
+    <state width="247" height="195" key="DatabaseViewActions_Filter" timestamp="1594156222507">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="247" height="195" key="DatabaseViewActions_Filter/67.27.1299.741@67.27.1299.741" timestamp="1594156222507" />
     <state x="350" y="170" width="722" height="453" key="EditFileWatcherDialog" timestamp="1592863196980">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="350" y="170" width="722" height="453" key="EditFileWatcherDialog/67.27.1299.741@67.27.1299.741" timestamp="1592863196980" />
+    <state x="677" y="27" width="324" height="741" key="EnvironmentVariablesDialog" timestamp="1594242926477">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="677" y="27" width="324" height="741" key="EnvironmentVariablesDialog/67.27.1299.741@67.27.1299.741" timestamp="1594242926477" />
     <state x="488" y="140" width="447" height="513" key="FileChooserDialogImpl" timestamp="1593291071731">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -388,26 +443,26 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="604" height="159" key="GridCell.Tab.0.bottom" timestamp="1594124600251">
+    <state width="604" height="159" key="GridCell.Tab.0.bottom" timestamp="1594243047848">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1320" height="159" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1594069680447" />
-    <state width="604" height="159" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594124600251" />
-    <state width="604" height="159" key="GridCell.Tab.0.center" timestamp="1594124600250">
+    <state width="604" height="159" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594243047848" />
+    <state width="604" height="159" key="GridCell.Tab.0.center" timestamp="1594243047846">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1320" height="159" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1594069680445" />
-    <state width="604" height="159" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594124600250" />
-    <state width="604" height="159" key="GridCell.Tab.0.left" timestamp="1594124600249">
+    <state width="604" height="159" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594243047846" />
+    <state width="604" height="159" key="GridCell.Tab.0.left" timestamp="1594243047844">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1320" height="159" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1594069680444" />
-    <state width="604" height="159" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594124600249" />
-    <state width="604" height="159" key="GridCell.Tab.0.right" timestamp="1594124600251">
+    <state width="604" height="159" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594243047844" />
+    <state width="604" height="159" key="GridCell.Tab.0.right" timestamp="1594243047847">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1320" height="159" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1594069680446" />
-    <state width="604" height="159" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594124600250" />
+    <state width="604" height="159" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594243047847" />
     <state width="604" height="198" key="GridCell.Tab.1.bottom" timestamp="1593961184413">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -442,6 +497,10 @@
     </state>
     <state x="257" y="114" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1593983217909" />
     <state x="311" y="114" width="800" height="565" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1594083472482" />
+    <state x="611" y="255" width="201" height="283" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1594156124628">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="611" y="255" width="201" height="283" key="com.intellij.database.actions.DdlActions$CreateObject$1/67.27.1299.741@67.27.1299.741" timestamp="1594156124628" />
     <state x="680" y="29" width="676" height="735" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593472009608">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -474,8 +533,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1594124600211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1594238347809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Q_WebX$upload.coverage" NAME="upload Coverage Results" MODIFIED="1594242931845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
