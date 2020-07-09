@@ -1,6 +1,17 @@
+from sqlalchemy import MetaData
+from flask import Flask, app
 from flask_sqlalchemy import SQLAlchemy
 
-db = SQLAlchemy()
+convention = {
+    "ix": 'ix_%(column_0_label)s',
+    "uq": "uq_%(table_name)s_%(column_0_name)s",
+    "ck": "ck_%(table_name)s_%(constraint_name)s",
+    "fk": "fk_%(table_name)s_%(column_0_name)s_%(referred_table_name)s",
+    "pk": "pk_%(table_name)s"
+}
+
+metadata = MetaData(naming_convention=convention)
+db = SQLAlchemy(metadata=metadata)
 
 
 class Flight(db.Model):
@@ -22,3 +33,9 @@ class Passenger(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String, nullable=False)
     flight_id = db.Column(db.Integer, db.ForeignKey("flights.id"), nullable=False)
+
+
+class Project:
+    def __init__(self, name, location):
+        self.name = name
+        self.location = location

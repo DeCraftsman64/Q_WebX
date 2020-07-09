@@ -2,19 +2,28 @@ import os
 
 from flask import Flask, render_template, request, session
 from flask_session import Session
-from My_Modules import Project
+from _models import *
 
 app = Flask(__name__)
+
+
+# Check for environment variable
+if not os.getenv("DATABASE_URL"):
+    raise RuntimeError("DATABASE_URL is not set")
+
 
 # Configuring Session
 app.config["SESSION_PERMANENT"] = False
 app.config['SESSION_TYPE'] = "filesystem"
+app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+db.init_app(app)
 Session(app)
 
 username = "safoqwame99@gmail.com"
 password = "0277364585"
 
-web = Project("Web Development", "landing/pro/web.html")
+web = Project("Web Development", "landing/pro/pro_database.html")
 projects = set()
 projects.add(web)
 
