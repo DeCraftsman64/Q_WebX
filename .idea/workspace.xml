@@ -21,13 +21,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c421eedb-4876-4781-8d2a-7f4181138e46" name="Default Changelist" comment="finally done with jquery side validation">
-      <change afterPath="$PROJECT_DIR$/templates/landing/pro/pro_database.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_session/0a97920dc01b92c21eee730a7e099580" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_session/5b7a3c5f8139d366ad89ee151222ccac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_session/9c6dd3b721f4cbb4a3ff04d908c99305" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/adinkrahene.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Modules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_session/2029240f6d1128be89ddc32729463129" beforeDir="false" afterPath="$PROJECT_DIR$/flask_session/2029240f6d1128be89ddc32729463129" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_session/a922e2ffaac721dbe6313b88d2cb35dc" beforeDir="false" afterPath="$PROJECT_DIR$/flask_session/a922e2ffaac721dbe6313b88d2cb35dc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/pro/pro_database.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/pro/pro_database.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landing/pro/web.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/pro/web.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/sign_up.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/sign_up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +50,8 @@
         <option value="Sass File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,6 +71,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -256,7 +265,10 @@
       <workItem from="1594038898159" duration="17119000" />
       <workItem from="1594113121949" duration="7460000" />
       <workItem from="1594237444574" duration="4501000" />
-      <workItem from="1594252784171" duration="1243000" />
+      <workItem from="1594252784171" duration="2607000" />
+      <workItem from="1594287537975" duration="8736000" />
+      <workItem from="1594303257059" duration="3548000" />
+      <workItem from="1594312771267" duration="18605000" />
     </task>
     <task id="LOCAL-00001" summary="original">
       <created>1593287508986</created>
@@ -356,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594125252566</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finally Done Setting up flask_sqlalchemy">
+      <created>1594254050405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594254050405</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +412,8 @@
     <MESSAGE value="partial project fixed" />
     <MESSAGE value="finally have solved project model" />
     <MESSAGE value="Fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed" />
+    <MESSAGE value="Finally Done Setting up flask_sqlalchemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally Done Setting up flask_sqlalchemy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="235" width="256" height="323" key="#Notifications" timestamp="1593775495992">
@@ -448,26 +468,26 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="381" y="27" width="660" height="741" key="Github.UntrackedFilesDialog/67.27.1299.741@67.27.1299.741" timestamp="1593291425565" />
-    <state width="604" height="159" key="GridCell.Tab.0.bottom" timestamp="1594254022811">
+    <state width="1253" height="159" key="GridCell.Tab.0.bottom" timestamp="1594339514677">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1320" height="159" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1594069680447" />
-    <state width="604" height="159" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594254022811" />
-    <state width="604" height="159" key="GridCell.Tab.0.center" timestamp="1594254022809">
+    <state width="1253" height="159" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594339514677" />
+    <state width="1253" height="159" key="GridCell.Tab.0.center" timestamp="1594339514676">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1320" height="159" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1594069680445" />
-    <state width="604" height="159" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594254022809" />
-    <state width="604" height="159" key="GridCell.Tab.0.left" timestamp="1594254022808">
+    <state width="1253" height="159" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594339514676" />
+    <state width="1253" height="159" key="GridCell.Tab.0.left" timestamp="1594339514675">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1320" height="159" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1594069680444" />
-    <state width="604" height="159" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594254022808" />
-    <state width="604" height="159" key="GridCell.Tab.0.right" timestamp="1594254022811">
+    <state width="1253" height="159" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594339514675" />
+    <state width="1253" height="159" key="GridCell.Tab.0.right" timestamp="1594339514676">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1320" height="159" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1594069680446" />
-    <state width="604" height="159" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594254022811" />
+    <state width="1253" height="159" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594339514676" />
     <state width="604" height="198" key="GridCell.Tab.1.bottom" timestamp="1593961184413">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -538,9 +558,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1594254022780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Q_WebX$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1594339736395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$test.coverage" NAME="test Coverage Results" MODIFIED="1593292737348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Q_WebX$upload.coverage" NAME="upload Coverage Results" MODIFIED="1594242931845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Q_WebX$upload.coverage" NAME="upload Coverage Results" MODIFIED="1594333742584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Q_WebX$Q_WebX.coverage" NAME="Q_WebX Coverage Results" MODIFIED="1593376308977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

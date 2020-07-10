@@ -1,16 +1,16 @@
 import os
 
-from flask import Flask, render_template, request, session
+from flask import render_template, request, session
 from flask_session import Session
+from sqlalchemy.exc import IntegrityError
+
 from _models import *
 
 app = Flask(__name__)
 
-
 # Check for environment variable
 if not os.getenv("DATABASE_URL"):
     raise RuntimeError("DATABASE_URL is not set")
-
 
 # Configuring Session
 app.config["SESSION_PERMANENT"] = False
@@ -20,18 +20,32 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
 Session(app)
 
-username = "safoqwame99@gmail.com"
-password = "0277364585"
 
-web = Project("Web Development", "landing/pro/pro_database.html")
-projects = set()
-projects.add(web)
+# username = "safoqwame99@gmail.com"
+# password = "0277364585"
 
 
-@app.route('/', methods=["GET"])
+@app.route('/', methods=["GET", "POST"])
 def index():
-    var = session["projects"].clear()
-    return render_template('render.html', view='login/index.html', valid=True)
+    if session.get("projects") is not None:
+        session["projects"].clear()
+    if request.method == "POST":
+        first_name = request.form.get('first_name')
+        last_name = request.form.get('last_name')
+        username = request.form.get('your_email')
+        password = request.form.get('password')
+        account = Account(first_name=first_name, last_name=last_name, username=username, pass_code=password)
+        db.session.add(account)
+        try:
+            db.session.commit()
+            return render_template('render.html', view='login/index.html', valid=True)
+        except IntegrityError as e:
+            source = request.host_url
+            cause = "Unable To Create Account"
+            suggestion = "Please check form data or resubmit form"
+            return render_template('error.html', source=source, cause=cause, suggestion=suggestion)
+    elif request.method == "GET":
+        return render_template('render.html', view='login/index.html', valid=True)
 
 
 @app.route('/sign_up')
@@ -42,19 +56,27 @@ def sign_up():
 @app.route('/home', methods=["GET", "POST"])
 def home():
     if request.method == "POST":
-        if request.form.get("username") != username or request.form.get('pass') != password:
+        username = request.form.get("username")
+        password = request.form.get("pass")
+        account = Account.query.filter_by(username=username).first()
+        print(f"username: {account.username} ; password: {account.pass_code}")
+        if account.username is None or account.pass_code != password:
+            # if request.form.get("username") != username or request.form.get('pass') != password:
+            print("Account Invalid")
             return render_template('render.html', view='login/index.html', valid=False,
-                                   isAccountValid="True",
                                    isPasswordValid="True",
+                                   isAccountValid="True",
                                    input=request.form.get("username"))
         else:
+            print('Account Valid')
+            projects = account.projects
             if session.get("projects") is None:
                 session["projects"] = []
             for pro in projects:
                 session["projects"].append(pro)
                 print(pro)
             return render_template('render.html', view='landing/index.html', home='active',
-                                   projects=session["projects"])
+                                   projects=projects)
     else:
         return render_template('render.html', view='landing/index.html', home='active')
 
@@ -120,12 +142,12 @@ def demo():
 
 
 notes = []
+code = ''
 
 
 @app.route('/project', methods=["GET", "POST"])
 def project():
-    note = ''
-    code = ''
+    global code
     if request.method == "POST":
         if "form1" in request.form:
             note = request.form.get('note')
@@ -136,6 +158,29 @@ def project():
     return render_template('landing/pro/web.html', notes=notes, code=code)
 
 
+@app.route('/projects/<string:location>', methods=['GET'])
+def projects(location):
+    global code
+    if request.method == 'POST':
+        if "form1" in request.form:
+            note = request.form.get('note')
+            notes.append(note)
+            print(notes)
+        elif 'form2' in request.form:
+            code = request.form.get("code")
+        return render_template('landing/pro/{}'.format(location), notes=notes, code=code)
+    else:
+        return render_template('landing/pro/{}'.format(location))
+
+
+@app.route('/gen')
+def gen():
+    account = Account.query.get(2)
+    account.add_project("Web Development", "web.html")
+    account.add_project("Staging Pro", "pro_database.html")
+    # db.create_all()
+    return render_template('error.html', cause="successes")
+
+
 if __name__ == '__main__':
     app.run()
-

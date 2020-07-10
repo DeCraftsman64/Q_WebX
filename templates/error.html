@@ -1,0 +1,15 @@
+{% extends 'bootstrap_temp.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="display-3 text-center">An Error Occurred!<span class="badge-dark">Error!</span> </h1>
+        <div class="container-fluid">
+            <h3>Details</h3>
+            <ul>
+                <li>Source: {{ source }}</li>
+                <li>Cause: {{ cause }}</li>
+                <li>Suggestions: {{ suggestion }}</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
